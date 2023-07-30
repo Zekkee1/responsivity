@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGATREDS</title>
+    <style>     
+        body {
+            background-color: #f1f1f1;
+            margin: 21px;        
+        }
+        main{
+            background-color: #ffffff;
+            
+            border-radius: 10px;
+            margin: auto;
+            max-width: 837px;
+            min-width: 320px;           
+        }
+        img{
+            width: 100%;
+        }
+        
+        .conteudo{
+            padding-left: 37px;
+            padding-right: 37px;
+        }
+        
+        h1,h3, p{
+            font-family: sans-serif ;
+        }
+        #descrição_img{
+            color: #8a8d8f;
+        }
+        #Fonte{
+            font-size: small;
+            color: #b8b8b8;
+        }
+        .nrf_cor_rodape{
+            width: 40%;          
+            padding-bottom: 5px; 
+
+            background-image: linear-gradient(to right, #f183a2, #6e60a6);
+        }
+        .nrf_cor_rodape2{
+            width: 40%;          
+            padding-bottom: 5px; 
+
+            background-image: linear-gradient(to right, #76C6CF, #675EA5);
+        }
+        .nrf_cor_rodape3{
+            width: 40%;          
+            padding-bottom: 5px; 
+
+            background-image: linear-gradient(to right, #75C7CF, #38B388);
+        }
+        .noticias{
+            display: flex;
+            max-width: 804px;
+        }       
+        .noticia{
+            padding-top: 35px;
+            
+        }
+        .noticia img{
+            width: 365px;
+            height: 277px;
+        }
+        @media(max-width:865px){
+            .noticias{
+                display: block;
+                text-align: center;          
+            }
+        }
+        .mandarin_footer{
+            margin-top: 18px;
+            width: 100%;
+            height: 81px;
+            background-color: #FC4C02;
+            text-align: center;
+        }
+        .mandarin_footer img{
+            padding: 5px;
+            width: 50%;
+            min-width: 390px;
+        }
+        footer{
+            text-align: center;
+            color: #646869;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="IMG/trends.png" alt="megatrends">
+        <div class="conteudo">
+            <img id="nrf" src="IMG/nrf_2020_vision.png" alt="nrf">
+            <h1>NRF 2020: conheça os tops 5 assuntos do evento.</h1>
+            <h3 id="descrição_img">O maior evento sobre varejo do mundo mostrando as tendências, 
+                oportunidades e inovações para o setor</h3>               
+            <p id="Fonte">Fonte: CMO ADOBE</p>  
+            <div class="nrf_cor_rodape"></div>
+
+            <div class="noticias">      
+                <div class="noticia" id="noticia1">
+                    <img src="IMG/make_kobe.png" alt="kobe">
+                    <h1>Petição para colocar Kobe Bryant no logo da NBA.</h1>
+                    <p id="Fonte">Fonte: Daily Mail</p>
+                    <div class="nrf_cor_rodape2"></div>
+                </div>
+                  
+                <div class="noticia" id="noticia2">
+                    <img src="IMG/whatsapp_logo.png" alt="whats">
+                    <h1>WhatsApp terá função de pagamentos em 2020.</h1>
+                    <p id="Fonte">Fonte: Daily Mail</p>
+                    <div class="nrf_cor_rodape3"></div>
+                </div>
+            </div>
+            <div class="mandarin_footer">
+                <img  src="IMG/mandarin_assinatura-removebg-preview.png">
+            </div>
+        </div>
+        <footer>
+            <P>Copyright ® Mandarin. Todos os direitos reservados.    
+            <br>
+            Caso não deseje mais receber nossos e-mails, por favor <a href="">Clique aqui.</a></p>
+        </footer>
+    </main>  
+</body>
+</html>
